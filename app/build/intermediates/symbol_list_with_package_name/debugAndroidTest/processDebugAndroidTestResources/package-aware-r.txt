@@ -1,0 +1,3 @@
+com.example.healthcare.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,6 @@
+com.example.healthcare.test.app-annotation-experimental-1.4.0-0 C:\Users\jefta\.gradle\caches\transforms-3\01f7384ed3c2bea5f4de8d1d04dc471d\transformed\annotation-experimental-1.4.0\res
+com.example.healthcare.test.app-core-1.5.0-1 C:\Users\jefta\.gradle\caches\transforms-3\3931c5bba388776655629ecdf9a1fbad\transformed\core-1.5.0\res
+com.example.healthcare.test.app-androidTest-2 C:\Users\jefta\Documents\Project_Mobile-fork\app\build\generated\res\resValues\androidTest\debug
+com.example.healthcare.test.app-mergeDebugAndroidTestResources-3 C:\Users\jefta\Documents\Project_Mobile-fork\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.healthcare.test.app-mergeDebugAndroidTestResources-4 C:\Users\jefta\Documents\Project_Mobile-fork\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.healthcare.test.app-debugAndroidTest-5 C:\Users\jefta\Documents\Project_Mobile-fork\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

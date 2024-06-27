@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BookAppointmentActivity">
+
+    <Button
+        android:id="@+id/buttonAppTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:text="10:00"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.882"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMCartTotalCost" />
+
+    <TextView
+        android:id="@+id/textViewBMCartTotalCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Select Time"
+        android:textSize="20dp"
+        android:textColor="@color/yellowLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.905"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees" />
+
+    <Button
+        android:id="@+id/buttonAppBack"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="208dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/purpleDark"
+        android:text="Back"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees" />
+
+    <TextView
+        android:id="@+id/textViewLTBTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="Book Appointment"
+        android:textColor="@color/blue_200"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBMBPackageName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="-5dp"
+        android:text="Book appointment UPN Sehat"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewLTBTitle" />
+
+    <!-- Username Label -->
+    <TextView
+        android:id="@+id/labelUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewBMBPackageName"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/editTextBMBFullName"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="E.g. Jefta Supraja"
+        android:inputType="text"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/hint_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelUsername" />
+
+    <!-- Email Label -->
+    <TextView
+        android:id="@+id/labelEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Address"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBFullName" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/editTextBMBAddress"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="E.g. jefta.supraja@gmail.com"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/hint_text_color"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelEmail" />
+
+    <!-- Password Label -->
+    <TextView
+        android:id="@+id/labelPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBAddress"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="20dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/editTextBMBpincode"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="E.g 025845554"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/hint_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelPassword" />
+
+    <!-- Confirm Password Label -->
+    <TextView
+        android:id="@+id/labelConfirmPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:text="Fees"
+        android:textSize="16sp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextBMBpincode"
+        android:layout_marginStart="16dp" />
+
+    <!-- Confirm Password Input -->
+    <EditText
+        android:id="@+id/editTextAppFees"
+        android:layout_width="382dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/input_bg"
+        android:drawableLeft="@drawable/ic_baseline_security_24"
+        android:drawablePadding="10dp"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:text="Fees"
+        android:paddingLeft="20dp"
+        android:paddingTop="8dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/colorWhite"
+        android:textColorHint="@color/hint_text_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/labelConfirmPassword" />
+
+    <Button
+        android:id="@+id/buttonBookAppointment"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/btn_bg"
+        android:backgroundTint="@color/purpleDark"
+        android:text="Book Appointment"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees" />
+
+    <TextView
+        android:id="@+id/textViewAppDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Select Date"
+        android:textSize="20dp"
+        android:textColor="@color/yellowLight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.167"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAppFees"
+        tools:layout_editor_absoluteX="46dp" />
+
+    <Button
+        android:id="@+id/buttonCartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:textColor="@color/colorWhite"
+        android:text="27/10/2022"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAppDate" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

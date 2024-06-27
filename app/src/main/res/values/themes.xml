@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Healthcare" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">#673AB7</item>
+
+    </style>
+
+    <style name="Theme.Healthcare" parent="Base.Theme.Healthcare" />
+</resources>
