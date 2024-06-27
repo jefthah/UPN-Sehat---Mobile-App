@@ -27,19 +27,19 @@ UPN-Sehat is a mobile application designed to assist users in managing their hea
 ## Screenshots
 
 ### Login Screen
-![Login Screen](path/to/your/image/login_screen.png)
+![Login Screen](images/Login.png)
 
 ### Home Screen
-![Home Screen](path/to/your/image/home_screen.png)
+![Home Screen](images/Home.png)
 
 ### Appointment Booking
-![Appointment Booking](path/to/your/image/appointment_booking.png)
+![Appointment Booking](images/BookAppointment.png)
 
 ### Health Tracking
-![Health Tracking](path/to/your/image/health_tracking.png)
+![Health Tracking](images/HealthArticle.png)
 
 ### Health Information
-![Health Information](path/to/your/image/health_information.png)
+![Health Information](images/Doctor.png)
 
 ## Installation
 
